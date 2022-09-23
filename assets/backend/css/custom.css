@@ -1,0 +1,67 @@
+
+
+.custom-main-sec{
+	padding: 20px;
+}
+
+.cs-box-shadow{
+	padding: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	
+}
+.cs-box-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: help;
+}
+.cs-box-shadow span{
+	font-size: 22px;
+    font-weight: 500;
+}
+.cs-box-shadow .add-new a{
+	color: #0dcaf0;
+    font-size: 18px;
+    text-decoration: none;
+}
+.cs-box-shadow .add-new a:hover{
+	color: #000;
+}
+
+.cs-box-shadow .add-new{
+	padding: 3px 10px;
+    margin-left: 25px;
+}
+
+.cs-name-style td{
+	text-transform: capitalize;
+}
+
+tr.cs-shortcode th {
+    color: #000000;
+    font-weight: 400;
+    padding: 0;
+    font-style: italic;
+	border: none;
+}
+
+.cs-form-box-shadw{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.added-data{
+	color: #1abf0f;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.margin-right{
+	margin-right: 15px;
+}
+.margin-left{
+	margin-left: 15px;
+}
+input#shortcode {
+    width: auto;
+}

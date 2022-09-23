@@ -1,0 +1,88 @@
+/* Create New Data button frontend*/
+.rmp-frontend-add-form{
+    text-align: center;
+    padding-top: 40px;
+}
+.rmp-create-new-date {
+    text-align: center;
+}
+.rmp-positions-form{
+	display:none;
+	padding: 30px 0px;
+	}
+.rmp-positions-form .rmp-code{
+	margin-left: 20px;
+}
+#rmp-position-positons, #rmp-position-code{margin-left: 7px;}
+
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel-heading{background-color: #0c5dab !important;}
+.panel.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+	margin-bottom: -1px;
+}
+
+/********************************************************************/
+/*** PANEL PRIMARY ***/
+.with-nav-tabs.panel-primary .nav-tabs > li{
+    padding: 0px 10px;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #0c5dab;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #0c5dab;
+	background-color: #fff;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #0c5dab;
+    border-color: #0c5dab;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #0c5dab;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    background-color: #0c5dab;
+}
+
+.rmp-search-filter .rmp-table tr{
+	width: 240px;
+	display: inline-table;
+}
+td.rmp-leader.rmp-from-filter {
+    font-weight: 600;
+}
+.rmp-main-content .rmp-data-tr > td > input{
+    padding: 0.3rem 0.5rem;
+}
+.rmp-main-content .rmp-data-tr > td{
+    padding: 10px;
+}
